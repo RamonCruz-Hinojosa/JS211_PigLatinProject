@@ -2,14 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <script src="main.js"></script>
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <h1>Hello World!</h1>
     <hr/>
-    <div id="display-element"></div>
-    <button onclick="displayDate()">Click Me</button>
+    <div>
+      <label for="latin">Pig Latin-ize your word</label>
+    <input type="text" name="latin" id="latin" value="test">
+    <button name="latin" onclick="pigLatin()">pig latin here</button>
+    <p id="newWord"></p>
+    </div>
     <hr/>
+    <script src="main.js"></script>
   </body>
 </html>
